@@ -1,0 +1,53 @@
+.skills-section {
+  padding: 5rem 9%;
+  background-color: #191919;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-container {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  flex-wrap: wrap;
+}
+
+.skills-img img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  background-color: #111;
+  border-radius: 20px; /* <- untuk bikin kotak dengan sudut agak bulat */
+  padding: 2rem;
+  box-shadow: 0 0 25px #e3651d;
+}
+
+.skills-content {
+  max-width: 600px;
+}
+
+.skills-content h1 {
+  font-size: 4rem; /* disamakan dengan Home */
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.skills-content h2 {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.skills-content p,
+.skills-content li {
+  font-size: 1.6rem; /* Sama dengan Home */
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.skills-content ul {
+  padding-left: 2rem;
+}
